@@ -28,28 +28,22 @@
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
       
     </button>
-    <a class="navbar-brand" href="#">Brand</a>
+    <a class="navbar-brand" href='<?php echo base_url().'main/homepage'; ?>'>HOME</a></li>
   </div>
 
  
     <ul class="nav navbar-nav navbar-right">
 
-    	<li><a class="navbar-brand" href='<?php echo base_url().'pages/about2'; ?>'>Courses</a></li>
-    	<li><a class="navbar-brand" href='<?php echo base_url().'main/facebook_request'; ?>'>Signup</a>
-    
+    	<li><a class="navbar-brand" href='<?php echo base_url().'pages/facebook_request'; ?>'>Courses</a></li>
+    	
       <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <b class="caret"></b></a>
         <ul class="dropdown-menu">
           <li><a href="#">Action</a></li>
           <li><a href="#">Another action</a></li>
           <li><a href="#">Something else here</a></li>
-
-	
-
-
-
-
- </ul>
+          <li><a  href='<?php echo base_url().'main/logout'; ?>'>logout</a></li>
+        </ul>
       </li>
     </ul>
   </div><!-- /.navbar-collapse -->
@@ -60,9 +54,9 @@
 <div id="container">
 	<br>
 	<center>
-	<h1>Fwelcome</h1>
+	<h1>COURSES2222</h1>
 
-	<center><a class="btn btn-primary btn-large"  href='<?php echo base_url().'main/facebook_request'; ?>'>Connect with facebook</a>
+	
 
 
 

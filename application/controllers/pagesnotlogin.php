@@ -49,16 +49,6 @@ $this->load->view('pages/about', $data);
 }
 	}
 
-//STATICPAGES WITHOUT FACEBOOK LOGIN
-	public function about2(){
-
-
-$this->load->view('pages/about2');
-}
-
-
-
-
 	public function facebook_request(){
 
 
