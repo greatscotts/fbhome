@@ -33,6 +33,8 @@
 
  
     <ul class="nav navbar-nav navbar-right">
+
+    	<li><a class="navbar-brand" href='<?php echo base_url().'pages/about'; ?>'>Courses</a></li>
     	<li><img src="https://graph.facebook.com/<?= $facebook_id ?>/picture?type=square"></li>
       <li><h2><?php echo "$name"; ?></h2></li>
       <li class="dropdown">
@@ -54,6 +56,8 @@
 	<br>
 	<center>
 	<h1>Fwelcome</h1>
+
+	<center><a class="btn btn-primary btn-large"  href='<?php echo base_url().'pages/facebook_request'; ?>'>Connect with facebook</a>
 
 
 
