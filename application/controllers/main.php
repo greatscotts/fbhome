@@ -2,7 +2,7 @@
 
 class Main extends CI_Controller {
 
-	
+	//HOMEPAGE FUNCTION FOR ALL CONTROLS
 	public function index(){
 	$this->login();
 		 $this->load->view('include/header');

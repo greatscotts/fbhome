@@ -2,7 +2,7 @@
 
 class Pages extends CI_Controller {
 
-
+//MAINCONTROLLER FOR STATIC PAGES
 public function view($page = 'home')
 {
 
