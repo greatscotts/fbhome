@@ -28,14 +28,14 @@
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
       
     </button>
-   &nbsp;&nbsp;&nbsp;&nbsp;<a class="brand" href="index.html"> <img src="http://i44.tinypic.com/2igk379.png"></a>
+   &nbsp;&nbsp;&nbsp;&nbsp;<a class="brand" href='<?php echo base_url().'main/homepage'; ?>'> <img src="http://i44.tinypic.com/2igk379.png"></a>
   </div>
 
  
     <ul class="nav navbar-nav navbar-right">
-
+  <li><a class="navbar-brand" href='<?php echo base_url().'pages/about'; ?>'>Courses</a></li>
       <li><a class="navbar-brand" href='<?php echo base_url().'pages/about2'; ?>'>About</a></li>
-    	<li><a class="navbar-brand" href='<?php echo base_url().'pages/about'; ?>'>Courses</a></li>
+    
     	<li><img src="https://graph.facebook.com/<?= $facebook_id ?>/picture?width=40&height=40"></li>
      
       <li class="dropdown">
@@ -67,7 +67,7 @@
       <img data src="<?php echo base_url(); ?>assets/img/l1.png">
     <h1>Improvisation</h1>
         <p>Use Improvisation to <br>kickstart your Career</p>
- <p><a href="#" class="btn btn-warning">Enroll Now</a> </p>
+<p><a href='<?php echo base_url().'pages/classlog1'; ?>'class="btn btn-warning">Enroll Now</a> </p>
  
 </div>
 </div>
@@ -84,7 +84,7 @@
     
         <h1>Bootstrap</h1>
         <p>Bootstrap your <br>business and make it successful</p>
-        <p><a href="#" class="btn btn-warning">Enroll Now</a> </p>
+        <p><a href='<?php echo base_url().'pages/classlog1'; ?>'class="btn btn-warning">Enroll Now</a> </p>
       </div>
     </div>   </div>
     </div>
@@ -180,6 +180,7 @@
 
   <Center><img data src="<?php echo base_url(); ?>assets/img/nav.png"></a>
     <br>
+
 <a href="home.html" title="Scroll Top">
                <img data src="<?php echo base_url(); ?>assets/img/h1.png"></a>
 <a href="home.html" title="Scroll Top">
@@ -191,7 +192,7 @@
                <img data src="<?php echo base_url(); ?>assets/img/h5.png"></a>
 
 
-<h5>© 2013 OrangeApps Inc. All rights reserved. </h5>
+<h2>© 2013 OrangeApps Inc. All rights reserved. </h2>
 
 </body>
 </html>

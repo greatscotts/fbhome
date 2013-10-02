@@ -30,7 +30,7 @@ $this->load->library('fbconnect');
 
 
 	}
-
+//LOGIN STATIC PAGES
 	public function about(){
 
 
@@ -49,12 +49,41 @@ $this->load->view('pages/about', $data);
 }
 	}
 
+
+//CLASSLOG1
+	public function classlog1(){
+
+
+if ($this->session->userdata('is_logged_in')){
+
+	$data = $this->session->all_userdata();
+
+
+$this->load->view('pages/classlog1', $data);
+
+
+
+}else{
+
+	redirect('pages/class1');
+}
+	}
+
 //STATICPAGES WITHOUT FACEBOOK LOGIN
 	public function about2(){
 
 
 $this->load->view('pages/about2');
 }
+
+	public function class1(){
+
+
+$this->load->view('pages/class1');
+}
+
+
+
 
 
 

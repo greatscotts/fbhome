@@ -29,7 +29,7 @@
       
     </button>
 
-  &nbsp;&nbsp;&nbsp;&nbsp;<a class="brand" href="index.html"> <img src="http://i44.tinypic.com/2igk379.png"></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;<a class="brand" href='<?php echo base_url().'main/login'; ?>'> <img src="http://i44.tinypic.com/2igk379.png"></a>
      </div>
 
   </div>
@@ -39,7 +39,7 @@
 
     	<li><a class="navbar-brand" href='<?php echo base_url().'pages/about2'; ?>'>Courses</a></li>
       <li><a class="navbar-brand" href='<?php echo base_url().'pages/about2'; ?>'>About</a></li>
-    	<li><a class="navbar-brand" href='<?php echo base_url().'main/facebook_request'; ?>'>Signup</a>
+    	<li><a class="navbar-brand" href='<?php echo base_url().'main/facebook_request'; ?>'>Sign In</a>
     
       <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <b class="caret"></b></a>
@@ -74,7 +74,7 @@
       <img data src="<?php echo base_url(); ?>assets/img/l1.png">
     <h1>Improvisation</h1>
         <p>Use Improvisation to <br>kickstart your Career</p>
- <p><a href="#" class="btn btn-warning">Enroll Now</a> </p>
+ <p><a href='<?php echo base_url().'pages/class1'; ?>'class="btn btn-warning">Enroll Now</a> </p>
  
 </div>
 </div>
@@ -91,7 +91,7 @@
     
         <h1>Bootstrap</h1>
         <p>Bootstrap your <br>business and make it successful</p>
-        <p><a href="#" class="btn btn-warning">Enroll Now</a> </p>
+      <p><a href='<?php echo base_url().'pages/class1'; ?>'class="btn btn-warning">Enroll Now</a> </p>
       </div>
     </div>   </div>
     </div>
@@ -198,7 +198,7 @@
                <img data src="<?php echo base_url(); ?>assets/img/h5.png"></a>
 
 
-<h5>© 2013 OrangeApps Inc. All rights reserved. </h5>
+<h2>© 2013 OrangeApps Inc. All rights reserved. </h2>
 
 </body>
 </html>
