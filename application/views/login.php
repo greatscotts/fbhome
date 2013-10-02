@@ -93,24 +93,77 @@
         <p>Bootstrap your <br>business and make it successful</p>
         <p><a href="#" class="btn btn-warning">Enroll Now</a> </p>
       </div>
+    </div>   </div>
     </div>
-  </div>
-</div>
-     </div>
-  </div>
-</div>
+
+ <Center>&nbsp;&nbsp;&nbsp;&nbsp;<img data src="<?php echo base_url(); ?>assets/img/ds.png"></a>
+
+
+<br><br><br><br>
+<!-- 2ND LAYER -->
+<div class="col-sm-1 col-md-1">
+      
+       
+      </div>
+    </div>
+  
+<div class="col-sm-5 col-md-2">
+      <a  href='<?php echo base_url().'pages/about2'; ?>'><img data src="<?php echo base_url(); ?>assets/img/l4.png"></a>
+    
+        <h1>Bootstrap</h1>
+        <p>Bootstrap your <br>business and make it successful</p>
+       
+      </div>
+    </div>
   
 
-</div>
-<br>
-<br>
-<br>
-<br>
-<br>
-  <center><a class="btn btn-primary btn-large"  href='<?php echo base_url().'main/facebook_request'; ?>'>Connect with facebook</a>
+  
+<div class="col-sm-5 col-md-2">
+      <a  href='<?php echo base_url().'pages/about2'; ?>'><img data src="<?php echo base_url(); ?>assets/img/l4.png"></a>
+    
+        <h1>Bootstrap</h1>
+        <p>Bootstrap your <br>business and make it successful</p>
+       
+      </div>
+    </div>
 
-<center><img src="<?php echo base_url(); ?>assets/img/tle.png" /><br>
 
+
+<div class="col-sm-5 col-md-2">
+      <a  href='<?php echo base_url().'pages/about2'; ?>'><img data src="<?php echo base_url(); ?>assets/img/l4.png"></a>
+    
+        <h1>Bootstrap</h1>
+        <p>Bootstrap your <br>business and make it successful</p>
+     
+      </div>
+    </div>
+
+    <div class="col-sm-5 col-md-2">
+      <a  href='<?php echo base_url().'pages/about2'; ?>'><img data src="<?php echo base_url(); ?>assets/img/l4.png"></a>
+    
+        <h1>Bootstrap</h1>
+        <p>Bootstrap your <br>business and make it successful</p>
+       
+      </div>
+    </div>
+  
+
+  
+<div class="col-sm-5 col-md-2">
+      <a  href='<?php echo base_url().'pages/about2'; ?>'><img data src="<?php echo base_url(); ?>assets/img/l4.png"></a>
+    
+        <h1>Bootstrap</h1>
+        <p>Bootstrap your <br>business and make it successful</p>
+       
+      </div>
+    </div>   </div>
+    </div>
+<br>
+ <Center><img data src="<?php echo base_url(); ?>assets/img/dis.png"></a>
+
+<br><br><br>
+<br><br><br><br><br><br>
+ <Center><img data src="<?php echo base_url(); ?>assets/img/dis.png"></a>
 </body>
 </html>
 
