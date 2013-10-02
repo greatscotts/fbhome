@@ -28,13 +28,17 @@
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
       
     </button>
-    <a class="navbar-brand" href="#">Brand</a>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;<a class="brand" href="index.html"> <img src="http://i44.tinypic.com/2igk379.png"></a>
+     </div>
+
   </div>
 
  
     <ul class="nav navbar-nav navbar-right">
 
     	<li><a class="navbar-brand" href='<?php echo base_url().'pages/about2'; ?>'>Courses</a></li>
+      <li><a class="navbar-brand" href='<?php echo base_url().'pages/about2'; ?>'>About</a></li>
     	<li><a class="navbar-brand" href='<?php echo base_url().'main/facebook_request'; ?>'>Signup</a>
     
       <li class="dropdown">
@@ -59,21 +63,53 @@
 
 <div id="container">
 	<br>
-	<center>
-	<h1>Fwelcome</h1>
+<!-- fix image title puro -->
 
-	<center><a class="btn btn-primary btn-large"  href='<?php echo base_url().'main/facebook_request'; ?>'>Connect with facebook</a>
-
+<center><img src="<?php echo base_url(); ?>assets/img/tle.png" /><br>
 
 
-
-
-
-	
+<div class="column">
+  <div class="col-sm-6 col-md-4">
+   
+      <img data src="<?php echo base_url(); ?>assets/img/l1.png">
+    <h1>Improvisation</h1>
+        <p>Use Improvisation to <br>kickstart your Career</p>
+ <p><a href="#" class="btn btn-warning">Enroll Now</a> </p>
+ 
+</div>
+</div>
+  <div class="col-sm-2 col-md-4">
+      <img data src="<?php echo base_url(); ?>assets/img/l2.png">
+    
+        <h1>Social Media</h1>
+        <p>Learn the best <br>ways to improve your social life </p>
+        <p><a href="#" class="btn btn-warning">Enroll Now</a> </p>
+      </div>
+   
+<div class="col-sm-6 col-md-4">
+      <img data src="<?php echo base_url(); ?>assets/img/l3.png">
+    
+        <h1>Bootstrap</h1>
+        <p>Bootstrap your <br>business and make it successful</p>
+        <p><a href="#" class="btn btn-warning">Enroll Now</a> </p>
+      </div>
+    </div>
+  </div>
+</div>
+     </div>
+  </div>
+</div>
+  
 
 </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+  <center><a class="btn btn-primary btn-large"  href='<?php echo base_url().'main/facebook_request'; ?>'>Connect with facebook</a>
 
-
+<center><img src="<?php echo base_url(); ?>assets/img/tle.png" /><br>
 
 </body>
 </html>
