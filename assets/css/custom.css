@@ -104,6 +104,13 @@ position: relative;
 background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh2r6vgpNOSeOBSBmiC3-yKcg3aksD7SAPuA9CwoEgMfXwE8Lu);
 background-repeat: repeat;
 }
+
+
+}
+#grey{
+background-image: url(http://i43.tinypic.com/9ifrs3.png);
+background-repeat: repeat;
+}
 #signin {
   background-image: 
   url(white),
@@ -144,12 +151,12 @@ h1 {
 }
 
 h2 {
-  font-size: 1em;
+  font-size: 1.5em;
   letter-spacing: -1px;
   margin-bottom: 30px;
   text-align: center;
   font-width: normal;
- color: #ffffff;
+
 }
 
 h3{
@@ -159,6 +166,35 @@ h3{
   text-align: center;
   font-width: normal;
  color: #ffffff;
+}
+
+h5{
+  font-size: 1em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-width: normal;
+ 
+}
+
+h6{
+  font-size: 1em;
+  letter-spacing: -1px;
+  margin-top: 16px;
+  text-align: center;
+  font-width: normal;
+ color: #ffffff;
+}
+
+
+
+h4{
+  font-size: 1.5em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-width: normal;
+
 }
 
 
@@ -411,12 +447,13 @@ background: url("http://i41.tinypic.com/afjwk6.png");
 
 }
 .title1{
-background-image: url("http://i41.tinypic.com/2cxx56c.png");
+background-image: url("http://i43.tinypic.com/9ifrs3.png");
 background-repeat: no repeat, repeat x;
 }
 
 .gg-gg {
-background: url(http://i49.tinypic.com/23ld34h.png) repeat;
+background: url("http://i43.tinypic.com/2h7mm3m.png");
+background-repeat: no repeat, repeat x;
 
 }
 
@@ -1517,7 +1554,7 @@ paragraph{
     float: none;
     max-width: none;
     padding: 0;
-    margin: 0 15px;
+    margin: 0 19px;
     background-color: transparent;
     border: none;
     -webkit-border-radius: 0;

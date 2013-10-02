@@ -28,16 +28,18 @@
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
       
     </button>
-    <a class="navbar-brand" href="#">Brand</a>
+   &nbsp;&nbsp;&nbsp;&nbsp;<a class="brand" href="index.html"> <img src="http://i44.tinypic.com/2igk379.png"></a>
   </div>
 
  
     <ul class="nav navbar-nav navbar-right">
 
+      <li><a class="navbar-brand" href='<?php echo base_url().'pages/about2'; ?>'>About</a></li>
     	<li><a class="navbar-brand" href='<?php echo base_url().'pages/about'; ?>'>Courses</a></li>
-    	<li><img src="https://graph.facebook.com/<?= $facebook_id ?>/picture?type=square"></li>
-      <li><h2><?php echo "$name"; ?></h2></li>
+    	<li><img src="https://graph.facebook.com/<?= $facebook_id ?>/picture?width=40&height=40"></li>
+     
       <li class="dropdown">
+        
         <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <b class="caret"></b></a>
         <ul class="dropdown-menu">
           <li><a href="#">Action</a></li>
@@ -53,26 +55,143 @@
 <body>
 
 <div id="container">
-	<br>
-	<center>
-	<h1>Fwelcome</h1>
+  <br>
+<!-- fix image title puro -->
 
-	<center><a class="btn btn-primary btn-large"  href='<?php echo base_url().'pages/facebook_request'; ?>'>Connect with facebook</a>
+<center><img src="<?php echo base_url(); ?>assets/img/tle.png" /><br>
+<br>
 
-
-
-
-
-
-	
-
+<div class="column">
+  <div class="col-sm-6 col-md-4">
+   
+      <img data src="<?php echo base_url(); ?>assets/img/l1.png">
+    <h1>Improvisation</h1>
+        <p>Use Improvisation to <br>kickstart your Career</p>
+ <p><a href="#" class="btn btn-warning">Enroll Now</a> </p>
+ 
 </div>
+</div>
+  <div class="col-sm-2 col-md-4">
+      <img data src="<?php echo base_url(); ?>assets/img/l2.png">
+    
+        <h1>Social Media</h1>
+        <p>Learn the best <br>ways to improve your social life </p>
+        <p><a href="#" class="btn btn-warning">Enroll Now</a> </p>
+      </div>
+   
+<div class="col-sm-6 col-md-4">
+      <img data src="<?php echo base_url(); ?>assets/img/l3.png">
+    
+        <h1>Bootstrap</h1>
+        <p>Bootstrap your <br>business and make it successful</p>
+        <p><a href="#" class="btn btn-warning">Enroll Now</a> </p>
+      </div>
+    </div>   </div>
+    </div>
+
+ <Center>&nbsp;&nbsp;&nbsp;&nbsp;<img data src="<?php echo base_url(); ?>assets/img/ds.png"></a>
 
 
+<br><br><br><br>
+<!-- 2ND LAYER -->
+<div class="col-sm-1 col-md-1">
+      
+       
+      </div>
+    </div>
+  
+<div class="col-sm-5 col-md-2">
+      <a  href='<?php echo base_url().'pages/about2'; ?>'><img data src="<?php echo base_url(); ?>assets/img/l4.png"></a>
+    
+        <h2>Bizpark</h2>
+        <p>Bootstrap your <br>business and make it successful</p>
+       
+      </div>
+    </div>
+  
+
+  
+<div class="col-sm-5 col-md-2">
+      <a  href='<?php echo base_url().'pages/about2'; ?>'><img data src="<?php echo base_url(); ?>assets/img/l5.png"></a>
+    
+        <h2>Technopreneurship</h2>
+        <p>Bootstrap your <br>business and make it successful</p>
+       
+      </div>
+    </div>
+
+
+
+<div class="col-sm-5 col-md-2">
+      <a  href='<?php echo base_url().'pages/about2'; ?>'><img data src="<?php echo base_url(); ?>assets/img/l6.png"></a>
+    
+        <h2>E-Learning</h2>
+        <p>Bootstrap your <br>business and make it successful</p>
+     
+      </div>
+    </div>
+
+    <div class="col-sm-5 col-md-2">
+      <a  href='<?php echo base_url().'pages/about2'; ?>'><img data src="<?php echo base_url(); ?>assets/img/l7.png"></a>
+    
+        <h2>Google Maps</h2>
+        <p>Bootstrap your <br>business and make it successful</p>
+       
+      </div>
+    </div>
+  
+
+  
+<div class="col-sm-5 col-md-2">
+      <a  href='<?php echo base_url().'pages/about2'; ?>'><img data src="<?php echo base_url(); ?>assets/img/l8.png"></a>
+    
+        <h2>Disruption</h2>
+        <p>Bootstrap your <br>business and make it successful</p>
+       
+      </div>
+    </div>   </div>
+    </div>
+<br>
+ <Center><img data src="<?php echo base_url(); ?>assets/img/space.png"></a>
+<p><a href="#" class="btn btn-warning btn-lg">Browse more Topics</a> </p>
+
+<br>
+
+
+
+<Center><img data src="<?php echo base_url(); ?>assets/img/dv2.png"></a>
+
+
+</center>
+<div class="title1">
+  <div id="container">
+
+  
+
+<Center><img data src="<?php echo base_url(); ?>assets/img/gr.png"></a>
+
+ <br>
+
+</div></div>
+
+<Center><img data src="<?php echo base_url(); ?>assets/img/greys.png"></a>
+<Center><img data src="<?php echo base_url(); ?>assets/img/down.png"></a>
+<Center><img data src="<?php echo base_url(); ?>assets/img/mble.jpg"></a>
+
+  <Center><img data src="<?php echo base_url(); ?>assets/img/nav.png"></a>
+    <br>
+<a href="home.html" title="Scroll Top">
+               <img data src="<?php echo base_url(); ?>assets/img/h1.png"></a>
+<a href="home.html" title="Scroll Top">
+               <img data src="<?php echo base_url(); ?>assets/img/h2.png"></a>
+<a href="home.html" title="Scroll Top">
+               <img data src="<?php echo base_url(); ?>assets/img/h3.png"></a>
+
+               <a href="home.html" title="Scroll Top">
+               <img data src="<?php echo base_url(); ?>assets/img/h5.png"></a>
+
+
+<h5>© 2013 OrangeApps Inc. All rights reserved. </h5>
 
 </body>
 </html>
-
-
-
-

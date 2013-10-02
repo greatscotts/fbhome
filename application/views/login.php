@@ -66,7 +66,7 @@
 <!-- fix image title puro -->
 
 <center><img src="<?php echo base_url(); ?>assets/img/tle.png" /><br>
-
+<br>
 
 <div class="column">
   <div class="col-sm-6 col-md-4">
@@ -110,7 +110,7 @@
 <div class="col-sm-5 col-md-2">
       <a  href='<?php echo base_url().'pages/about2'; ?>'><img data src="<?php echo base_url(); ?>assets/img/l4.png"></a>
     
-        <h1>Bootstrap</h1>
+        <h2>Bizpark</h2>
         <p>Bootstrap your <br>business and make it successful</p>
        
       </div>
@@ -119,9 +119,9 @@
 
   
 <div class="col-sm-5 col-md-2">
-      <a  href='<?php echo base_url().'pages/about2'; ?>'><img data src="<?php echo base_url(); ?>assets/img/l4.png"></a>
+      <a  href='<?php echo base_url().'pages/about2'; ?>'><img data src="<?php echo base_url(); ?>assets/img/l5.png"></a>
     
-        <h1>Bootstrap</h1>
+        <h2>Technopreneurship</h2>
         <p>Bootstrap your <br>business and make it successful</p>
        
       </div>
@@ -130,18 +130,18 @@
 
 
 <div class="col-sm-5 col-md-2">
-      <a  href='<?php echo base_url().'pages/about2'; ?>'><img data src="<?php echo base_url(); ?>assets/img/l4.png"></a>
+      <a  href='<?php echo base_url().'pages/about2'; ?>'><img data src="<?php echo base_url(); ?>assets/img/l6.png"></a>
     
-        <h1>Bootstrap</h1>
+        <h2>E-Learning</h2>
         <p>Bootstrap your <br>business and make it successful</p>
      
       </div>
     </div>
 
     <div class="col-sm-5 col-md-2">
-      <a  href='<?php echo base_url().'pages/about2'; ?>'><img data src="<?php echo base_url(); ?>assets/img/l4.png"></a>
+      <a  href='<?php echo base_url().'pages/about2'; ?>'><img data src="<?php echo base_url(); ?>assets/img/l7.png"></a>
     
-        <h1>Bootstrap</h1>
+        <h2>Google Maps</h2>
         <p>Bootstrap your <br>business and make it successful</p>
        
       </div>
@@ -150,20 +150,56 @@
 
   
 <div class="col-sm-5 col-md-2">
-      <a  href='<?php echo base_url().'pages/about2'; ?>'><img data src="<?php echo base_url(); ?>assets/img/l4.png"></a>
+      <a  href='<?php echo base_url().'pages/about2'; ?>'><img data src="<?php echo base_url(); ?>assets/img/l8.png"></a>
     
-        <h1>Bootstrap</h1>
+        <h2>Disruption</h2>
         <p>Bootstrap your <br>business and make it successful</p>
        
       </div>
     </div>   </div>
     </div>
 <br>
- <Center><img data src="<?php echo base_url(); ?>assets/img/dis.png"></a>
+ <Center><img data src="<?php echo base_url(); ?>assets/img/space.png"></a>
+<p><a href="#" class="btn btn-warning btn-lg">Browse more Topics</a> </p>
 
-<br><br><br>
-<br><br><br><br><br><br>
- <Center><img data src="<?php echo base_url(); ?>assets/img/dis.png"></a>
+<br>
+
+
+
+<Center><img data src="<?php echo base_url(); ?>assets/img/dv2.png"></a>
+
+
+</center>
+<div class="title1">
+  <div id="container">
+
+  
+
+<Center><img data src="<?php echo base_url(); ?>assets/img/gr.png"></a>
+
+ <br>
+
+</div></div>
+
+<Center><img data src="<?php echo base_url(); ?>assets/img/greys.png"></a>
+<Center><img data src="<?php echo base_url(); ?>assets/img/down.png"></a>
+<Center><img data src="<?php echo base_url(); ?>assets/img/mble.jpg"></a>
+
+  <Center><img data src="<?php echo base_url(); ?>assets/img/nav.png"></a>
+    <br>
+<a href="home.html" title="Scroll Top">
+               <img data src="<?php echo base_url(); ?>assets/img/h1.png"></a>
+<a href="home.html" title="Scroll Top">
+               <img data src="<?php echo base_url(); ?>assets/img/h2.png"></a>
+<a href="home.html" title="Scroll Top">
+               <img data src="<?php echo base_url(); ?>assets/img/h3.png"></a>
+
+               <a href="home.html" title="Scroll Top">
+               <img data src="<?php echo base_url(); ?>assets/img/h5.png"></a>
+
+
+<h5>© 2013 OrangeApps Inc. All rights reserved. </h5>
+
 </body>
 </html>
 
