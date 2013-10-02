@@ -39,12 +39,12 @@
     	<li><img src="https://graph.facebook.com/<?= $facebook_id ?>/picture?width=40&height=40"></li>
      
       <li class="dropdown">
-        
+
         <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <b class="caret"></b></a>
         <ul class="dropdown-menu">
           <li><a href="#">Action</a></li>
           <li><a href="#">Another action</a></li>
-          <li><a href="#">Something else here</a></li>
+          <li><a href="#">Something else herse</a></li>
           <li><a  href='<?php echo base_url().'main/logout'; ?>'>logout</a></li>
         </ul>
       </li>
