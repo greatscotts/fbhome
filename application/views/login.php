@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Members only</title>
+	<title>CampusOrange</title>
 
 	  <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,34 +29,18 @@
       
     </button>
 
-  &nbsp;&nbsp;&nbsp;&nbsp;<a class="brand" href='<?php echo base_url().'main/login'; ?>'> <img src="http://i44.tinypic.com/2igk379.png"></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;<a class="brand" href='<?php echo base_url().'main/login'; ?>'> <img data src="<?php echo base_url(); ?>assets/img/logo.png"></a>
      </div>
 
   </div>
 
  
     <ul class="nav navbar-nav navbar-right">
-
+   <li><a class="navbar-brand" href='<?php echo base_url().'main/login'; ?>'>Home</a></li>
     	<li><a class="navbar-brand" href='<?php echo base_url().'pages/about2'; ?>'>Courses</a></li>
       <li><a class="navbar-brand" href='<?php echo base_url().'pages/about2'; ?>'>About</a></li>
     	<li><a class="navbar-brand" href='<?php echo base_url().'main/facebook_request'; ?>'>Sign In</a>
     
-      <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <b class="caret"></b></a>
-        <ul class="dropdown-menu">
-          <li><a href="#">Action</a></li>
-          <li><a href="#">Another action</a></li>
-          <li><a href="#">Something else here</a></li>
-
-	
-
-
-
-
- </ul>
-      </li>
-    </ul>
-  </div><!-- /.navbar-collapse -->
 </nav>
 </head>
 <body>
@@ -198,7 +182,7 @@
                <img data src="<?php echo base_url(); ?>assets/img/h5.png"></a>
 
 
-<h2>© 2013 OrangeApps Inc. All rights reserved. </h2>
+<h3>© 2013 OrangeApps Inc. All rights reserved. </h3>
 
 </body>
 </html>

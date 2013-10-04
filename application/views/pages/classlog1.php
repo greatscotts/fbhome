@@ -28,7 +28,8 @@
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
       
     </button>
-   &nbsp;&nbsp;&nbsp;&nbsp;<a class="brand" href='<?php echo base_url().'main/homepage'; ?>'> <img src="http://i44.tinypic.com/2igk379.png"></a>
+ 
+  &nbsp;&nbsp;&nbsp;&nbsp;<a class="brand" href='<?php echo base_url().'main/login'; ?>'> <img data src="<?php echo base_url(); ?>assets/img/logo.png"></a>
   </div>
 
  

@@ -28,28 +28,21 @@
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
       
     </button>
-   &nbsp;&nbsp;&nbsp;&nbsp;<a class="brand" href='<?php echo base_url().'main/login'; ?>'> <img src="http://i44.tinypic.com/2igk379.png"></a>
+   
+  &nbsp;&nbsp;&nbsp;&nbsp;<a class="brand" href='<?php echo base_url().'main/login'; ?>'> <img data src="<?php echo base_url(); ?>assets/img/logo.png"></a>
   </div>
 
  
     <ul class="nav navbar-nav navbar-right">
 
+
+   <li><a class="navbar-brand" href='<?php echo base_url().'main/login'; ?>'>Home</a></li>
       <li><a class="navbar-brand" href='<?php echo base_url().'pages/about2'; ?>'>About</a></li>
       <li><a class="navbar-brand" href='<?php echo base_url().'pages/about'; ?>'>Courses</a></li>
+      <li><a class="navbar-brand" href='<?php echo base_url().'main/facebook_request'; ?>'>Sign In</a>
       
      
-      <li class="dropdown">
-
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <b class="caret"></b></a>
-        <ul class="dropdown-menu">
-          <li><a href="#">Action</a></li>
-          <li><a href="#">Another action</a></li>
-          <li><a href="#">Something else herse</a></li>
-          <li><a  href='<?php echo base_url().'main/logout'; ?>'>logout</a></li>
-        </ul>
-      </li>
-    </ul>
-  </div><!-- /.navbar-collapse -->
+      
 </nav>
 </head>
 <body>
@@ -163,7 +156,7 @@
                <img data src="<?php echo base_url(); ?>assets/img/h5.png"></a>
 
 
-<h2>© 2013 OrangeApps Inc. All rights reserved. </h2>
+<h3>© 2013 OrangeApps Inc. All rights reserved. </h3>
 
 </body>
 </html>
